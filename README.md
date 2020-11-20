@@ -61,7 +61,7 @@ Some of the board operation are described below.
 3. Define the implementation of the data type *Board\<E extends Data\>*, providing at least two implementations that use different support structures. In both cases, however, both the abstraction function and the representation invariant must be described. The characteristics of the two implementations are discussed.
     
 To evaluate the behavior of the proposed implementations, a battery of tests is realized that can operate, without specific changes, on both proposed implementations.
-<br><br><hr>
+<hr><br>
 
 
 ## Versione Italiana
