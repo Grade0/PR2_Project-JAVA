@@ -62,4 +62,4 @@ Alcune dell’operazione della bachecasono definite descritte di seguito.
 3. Si  definiscal’implementazione  del  tipo  didatoBoard<E  extends  Data>,fornendoalmeno due implementazioni  che  utilizzano  differenti  strutture  di  supporto. In  entrambi  i  casi  si devono comunque descrivere sia la funzione di astrazione sia l’invariante di rappresentazione. 
 Si discutano le caratteristiche delle due implementazioni.
 
-Per valutare  il  comportamento  dell’implementazionp roposte si realizziuna batteria di test in grado di operare, senza modifiche specifiche, su entrambe le implementazioni proposte.
+Per valutare  il  comportamento  dell’implementazioni proposte si realizziuna batteria di test in grado di operare, senza modifiche specifiche, su entrambe le implementazioni proposte.
