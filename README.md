@@ -6,7 +6,7 @@
 
 Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented esaminate durante il corso. 
 
-Si richiede di progettare, realizzare e documentare la collezione *DataBoard<E extends Data>*. La collezione DataBoard<E extends  Data> è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
+Si richiede di progettare, realizzare e documentare la collezione *DataBoard\<E extends Data\>*. La collezione DataBoard\<E extends  Data\> è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
 Intuitivamente lacollezione si comporta come unospazioper la memorizzazione e visualizzazionidi dati che possono essere di vario tipo  ma che implementano obbligatoriamente il metodo *display()*. 
 La bachecadeve garantire la privacy dei dati fornendo un proprio meccanismo di gestione della condivisione dei dati. Ogni dato presente nella bachecaha associato la categoria del dato. 
 Il proprietario della bacheca può definire le proprie categorie e stilare una lista di contatti (amici) a cui saranno visibili i dati per ogni tipologia di categoria. 
@@ -30,17 +30,17 @@ Alcune dell’operazione della bachecasono definite descritte di seguito.
         public void removeFriend(String category, String passw, String friend);  
         
         //Inserisce un dato inbacheca se vengono rispettati i controlli di identità
-        public boolean put(String passw, <Eextends Data>dato, String categoria);  
+        public boolean put(String passw, <E extends Data> dato, String categoria);  
         
         //Restituisce una copia del dato in bacheca se vengono rispettati i controlli di identità
-        public E get(String passw, <Eextends Data>dato);  
+        public E get(String passw, <E extends Data> dato);  
         
         //Rimuove il dato dalla bacheca se vengono rispettati i controlli di identità
         public E remove(String passw, <E extends Data> dato);  
         
         //Crea la lista dei datiin bacheca di una determinata categoria se vengono  
         //rispettati i controlli di identità
-        public List<E extends Data>getDataCategory(String passw, Stringcategory);
+        public List<E extends Data> getDataCategory(String passw, String category);
         
         //Aggiunge un like a un dato se vengono rispettati i controlli di identità
         void insertLike(String friend, <E extends Data> data);
