@@ -64,9 +64,8 @@ To evaluate the behavior of the proposed implementations, a battery of tests is 
 <br><br><hr><br><br>
 
 
-## Versione italiana
-### PROGRAMMAZIONE II - A.A. 2019–20  
-#### Primo Progetto - sessione autunnale
+## Versione Italiana
+#### PROGRAMMAZIONE II - A.A. 2019–20 | Primo Progetto
 
 Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented esaminate durante il corso. 
 
