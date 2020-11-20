@@ -6,7 +6,7 @@
 
 Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented esaminate durante il corso. 
 
-Si richiede di progettare, realizzare e documentare la collezione *DataBoard\<E extends Data\>*. La collezione DataBoard\<E extends  Data\> è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
+Si richiede di progettare, realizzare e documentare la collezione ***DataBoard\<E extends Data\>***. La collezione *DataBoard\<E extends  Data\>* è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
 Intuitivamente lacollezione si comporta come unospazioper la memorizzazione e visualizzazionidi dati che possono essere di vario tipo  ma che implementano obbligatoriamente il metodo *display()*. 
 La bachecadeve garantire la privacy dei dati fornendo un proprio meccanismo di gestione della condivisione dei dati. Ogni dato presente nella bachecaha associato la categoria del dato. 
 Il proprietario della bacheca può definire le proprie categorie e stilare una lista di contatti (amici) a cui saranno visibili i dati per ogni tipologia di categoria. 
