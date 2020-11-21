@@ -4,9 +4,9 @@
 ## English Version (per l'italiano guardare sotto)
 #### PROGRAMMING II - A.Y. 2019-20 | First Project
 
-The project aims to apply the concepts and techniques of Object-Oriented programming examined during the course.
+**Target:** The project aims to apply the concepts and techniques of Object-Oriented programming examined during the course.
 
-You are required to design, implemente and document the collection ***Databoard\<E extends Data >***. The *Databoard\<E extends Data\>* collection is a container of generic objects that extend the data type Data.
+**Description:** You are required to design, implemente and document the collection ***Databoard\<E extends Data >***. The *Databoard\<E extends Data\>* collection is a container of generic objects that extend the data type Data.
 Intuitively, the collection acts as a space for storing and displaying data that can be of various types but that must implement the *display() method*.
 The board must ensure data privacy by providing its own data sharing management mechanism. Every data on the board associated the data category.
 The board owner can define their own categories and draw up a list of contacts (friends) to which the data will be visible for each category type.
@@ -67,9 +67,9 @@ To evaluate the behavior of the proposed implementations, a battery of tests is 
 ## Versione Italiana
 #### PROGRAMMAZIONE II - A.A. 2019–20 | Primo Progetto
 
-Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented esaminate durante il corso. 
+**Obiettivo:** Il progetto ha l’obiettivo di applicare i concetti e le tecniche di programmazione Object-Oriented esaminate durante il corso. 
 
-Si richiede di progettare, realizzare e documentare la collezione ***DataBoard\<E extends Data\>***. La collezione *DataBoard\<E extends  Data\>* è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
+**Descrizione:** Si richiede di progettare, realizzare e documentare la collezione ***DataBoard\<E extends Data\>***. La collezione *DataBoard\<E extends  Data\>* è un  contenitore  di oggetti generici  che  estendono  il  tipo  di  dato  Data. 
 Intuitivamente la collezione si comporta come uno spazio per la memorizzazione e visualizzazionidi dati che possono essere di vario tipo ma che implementano obbligatoriamente il metodo *display()*. 
 La bacheca deve garantire la privacy dei dati fornendo un proprio meccanismo di gestione della condivisione dei dati. Ogni dato presente nella bachecaha associato la categoria del dato. 
 Il proprietario della bacheca può definire le proprie categorie e stilare una lista di contatti (amici) a cui saranno visibili i dati per ogni tipologia di categoria. 
